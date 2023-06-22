@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
 .nav2 {
     width: 100%;
     padding: 25px 100px;
@@ -9,6 +11,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding-right: 34rem;
 }
 
 .flex {
@@ -18,14 +21,15 @@
 }
 
 .nav2_left img {
-    width: 200px;
-    height: 80px;
+    width: 311px;
+    height: 139px;
 }
 
 .nav2_center {
     display: flex;
     gap: 50px;
-    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 2.4rem;
     align-items: center;
 }
 
@@ -34,6 +38,7 @@
     position: relative;
     color: #305349;
     font-weight: 600;
+    font-family: 'Roboto Slab', serif !important;
 }
 
 .nav_underline:after {

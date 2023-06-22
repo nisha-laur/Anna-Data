@@ -33,6 +33,7 @@ export default function Contact() {
             .then(data => {
                 loader.style.display = 'none';
                 console.log(data["status"]);
+                // eslint-disable-next-line
                 if (data['status'] == 'success') {
                     toast.success("Message Sent Successfully", {
                         position: toast.POSITION.BOTTOM_RIGHT,
@@ -54,7 +55,7 @@ export default function Contact() {
             <div className="contact-window">
                 <div className="contact-fields">
                     <h3>Get in touch!</h3>
-                    <h4>Contact us for any query</h4>
+                    <h4 className='minheading'>Contact us for any query</h4>
                     <div className="address-fields">
                         <div className="field">
                             <FaMap size={25} />

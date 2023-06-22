@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+body{
+    overflow: scroll;
+}
+
+
 .blog-window {
     width: 100%;
     display: flex;
@@ -11,7 +18,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-color: #FFE074;
+    background-color: #228ed5a6;
 }
 
 .test {
@@ -20,15 +27,19 @@
 }
 
 .blog-window .header h3 {
+    font-family: 'Roboto Slab', serif;
     font-size: 4.5rem;
     padding: 0 16rem;
     text-align: center;
+    color: aliceblue;
     margin-bottom: 1rem;
 }
 
 .blog-window .header h5 {
-    font-size: 1.5rem;
-    color: grey;
+    font-size: 1.9rem;
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    font-weight: 300;
 }
 
 .blog-window .blog-section {
@@ -44,13 +55,14 @@
 .blog {
     display: flex;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgb(147 183 229 / 41%) 16px 16px 27px;
     border-radius: 20px;
-    border: 1px solid #000;
-    background: #FFE074;
+    border: 3px solid #4f95e9;
+    background: #228ed51f;
 }
 
 .blog img {
+    height: 22rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -65,13 +77,16 @@
 }
 
 .blog .blog-data h4 {
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
     margin-bottom: 10px;
+    font-weight: 900;
 }
 
 .blog .blog-data h6 {
-    font-size: 18px;
-    color: grey;
+    font-size: 25px;
+    color: #3e3e3e;
+    font-family: 'Roboto Slab', serif;
 }
 
 @media (max-width:1200px) {
@@ -93,3 +108,5 @@
         padding: 50px;
     }
 }
+
+

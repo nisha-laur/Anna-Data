@@ -6,8 +6,8 @@ import service2 from '../../Assets/service2.jpeg'
 import alert from '../../Assets/alert.jpeg'
 import volunteer from '../../Assets/volunteer.jpeg'
 import chatbot from '../../Assets/chat.png'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css';
 
 export default function Service() {
     return (
@@ -19,6 +19,10 @@ export default function Service() {
                     <h1>Use these growing solutions for modern farming</h1>
                 </div>
             </div>
+
+        
+
+            
             <div className="service-section">
                 <div className="service">
                     <div className="service-img">
